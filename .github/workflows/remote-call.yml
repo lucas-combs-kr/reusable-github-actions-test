@@ -1,0 +1,9 @@
+name: githubactionstest resuable
+on: workflow_call
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo
+        run: echo hello world from a job in another repo
